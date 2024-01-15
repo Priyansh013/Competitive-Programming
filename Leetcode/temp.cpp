@@ -8,10 +8,21 @@ using namespace std;
 int main(){
 
 
-map <int ,int>m;
+vector<int> vec;
+vec.push_back(8);
 
-cout << m[1] << endl;
 
+vec.push_back(81);
+
+vec.push_back(84);
+
+vec.push_back(48);
+
+
+int n = vec.size();
+
+
+cout << n << endl;
 
 
 }
